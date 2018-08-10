@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+header {
+  background: #00f6f6;
+}
+
+header > h1,
+main > section,
+footer > p {
+  width: 600px;
+  margin: 0 auto;
+}
+
+header > h1 {
+  padding: 4% 0;
+}
+
+main, footer {
+  background: #efefef;
+  padding: 1% 0;
+}
+
+section > h1 {
+  margin: 0;
+}
+
+main > section {
+  padding: 1%;
+  background: white;
+  margin: 1% auto;
+}
+
+main > section:first-child {
+  margin-top: 0;
+}
+
+
+
+@media (max-width:600px) {
+  main {
+    width: 100%;
+  }
+}
