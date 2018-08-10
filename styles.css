@@ -9,6 +9,7 @@ header {
 }
 
 header > h1,
+header > p,
 main > section,
 footer > p {
   width: 600px;
@@ -16,7 +17,11 @@ footer > p {
 }
 
 header > h1 {
-  padding: 4% 0;
+  padding: 4% 0 2%;
+}
+
+header > p {
+  padding-bottom: 2%;
 }
 
 main, footer {
